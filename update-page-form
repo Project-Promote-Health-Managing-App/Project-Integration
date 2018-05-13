@@ -1,0 +1,28 @@
+<div class="row">
+<div class="col-md-6"><div class="form-group">[text* primary-ID class:firstname placeholder "Primary-ID"]&nbsp &nbsp &nbsp &nbsp [text* your-name class:firstname placeholder "First Name"]&nbsp &nbsp &nbsp &nbsp [text last-name class:lastname placeholder "Last Name"]</div></div>
+
+<div class="col-md-6"><div class="form-group">[tel* phone-no class:phoneno placeholder "Phone"]&nbsp &nbsp &nbsp &nbsp [text* post-code class:postcode placeholder "Address"]&nbsp &nbsp &nbsp &nbsp [date date-592 placeholder "Date of Birth"]</div></div>
+
+<div class="col-md-6"><div class="form-group">
+[number* age min:0 class:postcode placeholder "Age"]</div></div>
+
+<div class="row">
+<div class="col-md-12"><div class="form-group">[select Gender "Male" "Female" "Others"]
+</div></div>
+</div>
+Categories
+<div class="row">
+<div class="col-md-12"><div class="form-group">[select ProductsofInterest "Smoker" "Diabetes" "Fat" "Others"]
+</div></div>
+</div>
+<div class="col-md-12"><div class="form-group"> 
+    [textarea your-message placeholder "Message"] 
+</div></div>
+<div class="col-md-12"><div class="form-group"> 
+[file file-206 placeholder "Choose multimedia message if any"]
+</div></div>
+
+<div class="row">
+<div class="col-md-12"><div class="form-group text-center submitdiv">[submit "Update Details"]</div>
+</div>
+</div>
