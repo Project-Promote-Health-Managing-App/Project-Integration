@@ -1,0 +1,10 @@
+<label> Categories 
+   [select Category "Smoker" "Others"] </label>
+
+<label> Message 
+   [select Message "Find Your Reason to Quit Smoking" "Consider Nicotine Replacement Therapy." "Others" ] </label>
+
+<label> Recipient 
+   [select Message "Send all in the category" "---Lookup for PID to send---"] </label>
+
+[submit "Send"]
